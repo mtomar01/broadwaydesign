@@ -1,12 +1,11 @@
 body {
   font-family: Helvetica, Geneva, Tahoma, sans-serif;
   text-align: center;
-  background-image: url("resources\images\building.png");
 }
 
 /* HEADER AND HEADINGS */
 .header--jumbo {
-  background-image: url("resources\images\building.png");
+  background-image: url("../images/building.png");
 }
 .header--main {
 font-size: 70px;
@@ -14,6 +13,7 @@ font-weight: bold;
 color: white;
 }
 nav ul {
+  display: inline-block;
 list-style: none;
 }
 nav ul li a {
@@ -33,7 +33,8 @@ font-weight: bold;
 
 }
 .header--second--bg {
-background-image: url("resources\images\building.png");
+background-image: url("../images/building.png");
+color: white;
 }
 
 
@@ -49,13 +50,14 @@ background-image: url("resources\images\building.png");
 }
 
 /* FOOTER */
-.footer--style {
-
+.footer--container {
+  display: inline-block;
 }
-nav ul {
-list-style: none;
+.footer--displayinline {
+  display: inline-block;
+  background-color: dimgrey;
 }
-nav ul li a {
-  font-size: 18px;
+.footer--copyright{
+  font-size: 11px;
   color: white;
 }
