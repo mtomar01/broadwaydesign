@@ -1,0 +1,37 @@
+body {
+  font-family: Helvetica, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+/* HEADINGS */
+.jumbotron--navbar{
+  background-image: url("resources\images\building.png");
+}
+.header--main {
+font-size: 70px;
+font-weight: bold;
+color: white;
+}
+nav ul li a {
+  font-size: 18px;
+  color: white;
+}
+.header--second {
+
+
+}
+.header--fourth {
+
+
+}
+
+/* LINKS */
+.link--cta {
+
+
+}
+
+/* FOOTER */
+.footer--style {
+
+}
