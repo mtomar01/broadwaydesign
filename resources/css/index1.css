@@ -24,9 +24,22 @@ nav ul li a {
 font-size: 32px;
 font-weight: bold;
 }
+.header--third {
+  font-size: 23px;
+  font-weight: bold;
+}
 .header--fourth {
 
 
+}
+.header--second--bg {
+background-image: url("resources\images\building.png");
+}
+
+
+/* PARAGRAPHS AND DESCRIPTIONS */
+.par--description {
+  font-size: 14px;
 }
 
 /* LINKS */
@@ -38,4 +51,11 @@ font-weight: bold;
 /* FOOTER */
 .footer--style {
 
+}
+nav ul {
+list-style: none;
+}
+nav ul li a {
+  font-size: 18px;
+  color: white;
 }
