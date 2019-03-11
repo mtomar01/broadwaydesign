@@ -50,14 +50,18 @@ color: white;
 }
 
 /* FOOTER */
-.footer--container {
-  display: inline-block;
+.footer--copyright {
+display: inline-block;
 }
 .footer--displayinline {
-  display: inline-block;
   background-color: dimgrey;
 }
 .footer--copyright{
   font-size: 11px;
   color: white;
+}
+footer ul li {
+  display: inline-block;
+  color: white;
+
 }
