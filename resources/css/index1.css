@@ -5,7 +5,7 @@ body {
 }
 
 /* HEADER AND HEADINGS */
-.jumbotron {
+.header--jumbo {
   background-image: url("resources\images\building.png");
 }
 .header--main {
@@ -21,8 +21,8 @@ nav ul li a {
   color: white;
 }
 .header--second {
-
-
+font-size: 32px;
+font-weight: bold;
 }
 .header--fourth {
 
